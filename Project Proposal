@@ -7,7 +7,6 @@ Sophia Ashraf
 Dylan Oquendo
 Karun Mokha
 Jake Kondo
-Ekrem Ersoz
 
 Potential Questions:
 How do certain aspects of physical and mental health positively affect the academic performance of college students?
@@ -92,6 +91,17 @@ How will you set out to detect these specific biases before, during, and after/w
 Are there any other issues related to your topic area, data, and/or analyses that are potentially problematic in terms of data privacy and equitable impact?
 How will you handle issues you identified?
 (1-2 paragraphs)
+
+The datasets proposed, such as those from Kaggle, typically come with agreements that ensure the data was collected ethically and with the participants' consent. However, it is important to anonymize any data further to protect individuals' identities, especially when dealing with sensitive information like mental health conditions and academic performance.
+Bias is another critical concern. Our datasets might not equally represent all demographic groups, potentially skewing results. For instance, students from lower socioeconomic backgrounds might be underrepresented in surveys about nutrition due to limited access to resources. We plan to address these biases by carefully examining the demographic distribution of our data sources and considering these limitations in our analysis and conclusions.
+
+TEAM EXPECTATIONS: Read over the COGS108 Team Policies individually. Then, include your group’s expectations of one another for successful completion of your COGS108 project below. Discuss and agree on what all of your expectations are. Discuss how your team will communicate throughout the quarter and consider how you will communicate respectfully should conflicts arise. By including each member’s name above and by adding their name to the submission, you are indicating that you have read the COGS108 Team Policies, accept your team’s expectations below, and have every intention to fulfill them. These expectations are for your team’s use and benefit — they won’t be graded for their details.
+
+PROJECT TIMELINE PROPOSAL: Specify your team's specific project timeline. An example timeline has been provided. Changes the dates, times, names, and details to fit your group's plan.
+
+If you think you will need any special resources or training outside what we have covered in COGS 108 to solve your problem, then your proposal should state these clearly. For example, if you have selected a problem that involves implementing multiple neural networks, please state this so we can make sure you know what you’re doing and so we can point you to resources you will need to implement your project. Note that you are not required to use outside methods.
+
+To reemphasize: for the Project Proposal you are not expected to have already done any analyses for the proposed project, but what you submit should be a plan for what you will answer and what data you would ideally have for the project. (Of course, for the final project you will need to actually find the data and do the analyses.)
 
 The datasets proposed, such as those from Kaggle, typically come with agreements that ensure the data was collected ethically and with the participants' consent. However, it is important to anonymize any data further to protect individuals' identities, especially when dealing with sensitive information like mental health conditions and academic performance.
 Bias is another critical concern. Our datasets might not equally represent all demographic groups, potentially skewing results. For instance, students from lower socioeconomic backgrounds might be underrepresented in surveys about nutrition due to limited access to resources. We plan to address these biases by carefully examining the demographic distribution of our data sources and considering these limitations in our analysis and conclusions.
