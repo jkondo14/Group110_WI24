@@ -1,0 +1,58 @@
+﻿Check point #1: Data
+
+
+NAMES: 
+Sophia Ashraf
+Dylan Oquendo
+Karun Mokha
+Jake Kondo
+Ekrem Ersoz
+
+
+RESEARCH QUESTION: What is your research question? Include the specific question you're setting out to answer. This question should be specific, answerable with data, and clear. A general question with specific subquestions is permitted. (1-2 sentences)
+
+
+Did mental health during Covid 19 have an effect on pregnancy outcomes?
+
+
+Sub Questions:
+1. Normal time data (overall population):
+* Analyze pregnancy outcomes data from periods before the Covid-19 pandemic as a baseline. This will help establish what "normal" outcomes look like, against which pandemic-era outcomes can be compared.
+2. Was it related to mental health:
+* Investigate whether changes in pregnancy outcomes during the Covid-19 pandemic correlate with reported changes in mental health statistics. This involves collecting data on mental health issues among pregnant individuals during the pandemic and comparing these with pregnancy outcomes.
+3. How did these relate to large events (e.g., vaccine)? Did that change anything…:
+* Examine the timeline of major Covid-19-related events, such as lockdowns, infection waves, and the introduction of vaccines, and analyze their impact on mental health and pregnancy outcomes. This could involve comparing pregnancy outcomes and mental health data before and after such events to identify any significant changes or trends.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATASET(S): What data will you use to answer your question? Describe the dataset(s) in terms of number of observations, what kind of features it contains, etc. (Typically students have datasets of ~1000 observations across their datasets. This is not a requirement, but is good to know around the scale of data we're expecting.) You are welcome (and in fact recommended) to find multiple datasets! If you do so, describe each one, and briefly explain how you will combine them together. Include the source of the dataset in the description here.
+
+
+We are using a Kaggle dataset about pregnant women during covid19, which had 10772 rows  and 16 columns. It has information about birth duration, baby logistics, age and income of the mother, as well as education, and a depression and anxiety score for the mothers as well. Many of the columns measured some aspect of the mothers wellbeing or the babies, and there were also columns concerning the mother’s feeling on the birthing process. And we will be using these observations to see if covid 19 had an effect on pregnancy outcomes using these variables as a proxy.
+
+
+SETUP: pandas as pd, not much else for now
+
+
+DATA CLEANING: Get each of your datasets into a usable (likely, tidy) format. Briefly explain what steps you had to take before you were able to use the datasets you chose to answer your question of interest.
+
+
+How 'clean' is the data?
+What did you have to do to get the data into a usable format? (If you did nothing, how did you determine there was nothing to do?)
+What pre-processing steps that were required for your methods (for example, checking data distributions and performing any transformations that may be required)
+
+
+The data was moderately clean, however we did need to remove rows with null values in the columns we deemed important to answering our questions, as these observations would not help us in answering them.
+We also renamed columns, and changed some column entries to be simpler and uniform for readability and efficiency. Some entries were made into percentages since they were scores out of 100, and we changed birth date to be a datetime variable.
+Before making these changes however, we had to check the datatype of the columns of the dataframe, and also check the unique entries of the categorical data in order to rename and clean them up, or convert in some cases.
